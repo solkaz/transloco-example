@@ -1,1 +1,8 @@
-{}
+{
+  "title": "Transloco Beispiel",
+  "greeting": "Guten Tag!",
+  "language": {
+    "en": "Englisch",
+    "de": "Deutsch"
+  }
+}

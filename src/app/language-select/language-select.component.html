@@ -1,1 +1,11 @@
-<p>language-select works!</p>
+<select
+  name="language"
+  (change)="onLanguageChange($event.target.value)"
+  *transloco="let t; read: 'language'"
+>
+  <ng-container *ngFor="let language of languages">
+    <option [value]="language" [selected]="language === currentLanguage">{{
+      t(language)
+    }}</option>
+  </ng-container>
+</select>

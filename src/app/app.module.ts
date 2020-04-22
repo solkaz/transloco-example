@@ -7,16 +7,9 @@ import { TranslocoRootModule } from './transloco-root.module';
 import { LanguageSelectComponent } from './language-select/language-select.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LanguageSelectComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    TranslocoRootModule
-  ],
+  declarations: [AppComponent, LanguageSelectComponent],
+  imports: [BrowserModule, HttpClientModule, TranslocoRootModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
