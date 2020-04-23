@@ -1,6 +1,8 @@
 {
   "title": "Transloco Beispiel",
   "greeting": "Guten Tag!",
+  "homePage.title": "Missing value for 'homePage.title'",
+  "homePage.toUsers": "Missing value for 'homePage.toUsers'",
   "language": {
     "en": "Englisch",
     "de": "Deutsch"
