@@ -16,7 +16,8 @@ export class LanguageSelectComponent {
     return this.languageService.currentLanguage;
   }
 
-  onLanguageChange(language: string) {
+  onLanguageChange(event: an) {
+    const language = event.target.value;
     if (this.currentLanguage !== language) {
       this.languageService.setActiveLanguage(language);
     }

@@ -1,6 +1,6 @@
 <select
   name="language"
-  (change)="onLanguageChange($event.target.value)"
+  (change)="onLanguageChange($event)"
   *transloco="let t; read: 'language'"
 >
   <ng-container *ngFor="let language of languages">
