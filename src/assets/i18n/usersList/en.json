@@ -1,3 +1,5 @@
 {
-  "title": "User list"
+  "title": "User list",
+  "userLabel": "User {{userId}}",
+  "goBack": "Go Back"
 }

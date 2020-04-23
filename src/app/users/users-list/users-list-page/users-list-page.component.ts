@@ -6,11 +6,6 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./users-list-page.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class UsersListPageComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class UsersListPageComponent {
+  readonly users = Array.from({length: 10}, () => Math.floor(Math.random() * 100).toString());
 }
